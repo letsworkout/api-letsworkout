@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "components_person_person_forms",
+  "info": {
+    "name": "personForm",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "password": {
+      "type": "password"
+    },
+    "email": {
+      "type": "email"
+    },
+    "birthday": {
+      "type": "date"
+    }
+  }
+}

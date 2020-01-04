@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "teachers",
+  "info": {
+    "name": "teacher"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "profile": {
+      "type": "component",
+      "repeatable": false,
+      "component": "person.person-form"
+    },
+    "clients": {
+      "type": "component",
+      "repeatable": true,
+      "component": "person.client"
+    }
+  }
+}

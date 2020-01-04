@@ -1,0 +1,19 @@
+{
+  "info": {
+    "name": "workplans",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "workoutday": {
+      "type": "component",
+      "repeatable": true,
+      "component": "work-plans.work-plans"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_work_plans_workplans"
+}

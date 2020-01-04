@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "components_person_clients",
+  "info": {
+    "name": "client",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "profile": {
+      "type": "component",
+      "repeatable": false,
+      "component": "person.person-form"
+    },
+    "workoutplans": {
+      "type": "component",
+      "repeatable": true,
+      "component": "work-plans.workplans"
+    }
+  }
+}

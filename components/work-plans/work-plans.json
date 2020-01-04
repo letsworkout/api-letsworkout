@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "components_work_plans_work_plans",
+  "info": {
+    "name": "workday",
+    "icon": "laptop"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "repetition": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
