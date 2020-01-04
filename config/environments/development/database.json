@@ -1,0 +1,20 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "mongoose",
+      "settings": {
+        "database": "trainer",
+        "host": "trainer-zzgkg.azure.mongodb.net/test",
+        "srv": "true",
+        "port": 27017,
+        "username": "personal",
+        "password": "VJ6G1rPYSWvgJU2m"
+      },
+      "options": {
+        "authenticationDatabase": "",
+        "ssl": true
+      }
+    }
+  }
+}
