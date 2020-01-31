@@ -1,8 +1,8 @@
 {
   "connection": "default",
-  "collectionName": "teachers",
+  "collectionName": "clients",
   "info": {
-    "name": "teacher"
+    "name": "Client"
   },
   "options": {
     "increments": true,
@@ -12,10 +12,7 @@
     "profile": {
       "type": "component",
       "repeatable": false,
-      "component": "person.person-form"
-    },
-    "clients": {
-      "collection": "client"
+      "component": "person.client"
     }
   }
 }
